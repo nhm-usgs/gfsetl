@@ -1,7 +1,7 @@
-<<<<<<< HEAD
 .idea/
-=======
->>>>>>> 4b6cbd8af0f59fe6a2c61416f647ea59c9ec6554
+input/
+output/
+HRU_MAP/*.gpkg
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -12,10 +12,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-<<<<<<< HEAD
 env/
-=======
->>>>>>> 4b6cbd8af0f59fe6a2c61416f647ea59c9ec6554
 build/
 develop-eggs/
 dist/
@@ -28,18 +25,15 @@ parts/
 sdist/
 var/
 wheels/
-<<<<<<< HEAD
 *.egg-info/
 .installed.cfg
 *.egg
-=======
 pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
->>>>>>> 4b6cbd8af0f59fe6a2c61416f647ea59c9ec6554
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
