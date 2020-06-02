@@ -16,7 +16,7 @@ def get_gfs_url(date, forecast_p, dsvar):
     str_start = date_fh.strftime(sformat)
 
     payload = {
-        'var': dsvar,
+        'var': dsvar, 
         'north': '54',
         'west': '-126',
         'east': '-65',

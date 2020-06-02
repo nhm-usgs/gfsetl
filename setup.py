@@ -12,7 +12,7 @@ with open('HISTORY.rst') as history_file:
 
 requirements = ['Click>=7.0', 'pandas', 'geopandas', 'numpy',
                 'xarray', 'netcdf4', 'requests', 'dask', 'siphon',
-                'metpy']
+                'metpy', 'cfgrib']
 
 setup_requirements = ['pytest-runner', ]
 

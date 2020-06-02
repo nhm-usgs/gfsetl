@@ -1,4 +1,5 @@
 .idea/
+ftpdownload/
 input/
 output/
 HRU_MAP/*.gpkg

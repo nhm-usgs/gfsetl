@@ -59,7 +59,7 @@ class GFSEtl:
                 url, params = get_gfs_url(date=date_hr, forecast_p=forecast_p, dsvar=value)
                 file = requests.get(url, params=params)
                 file.raise_for_status()
-                fn = '{var}_gfsanl_4_{dt:%Y%m%d}_{dt:%H}00_00{fp}.grb2'.format(dt=date_hr, fp=forecast_p, var=key)
+                fn = '{var}_gfsanl_4_{dt:%Y%m%d}_{dt:%H}00_00{fp}.grb2.nc'.format(dt=date_hr, fp=forecast_p, var=key)
                 tfile = self._iptpath / fn
                 incfile.append(tfile)
                 with open(tfile, 'wb') as fh:
